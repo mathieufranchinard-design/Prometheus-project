@@ -1,0 +1,10 @@
+[
+  {
+    "targets": ["node:9100"],
+    "labels": { "job": "node"}
+  },
+   {
+    "targets": ["promethe:9090"],
+    "labels": { "job": "promethe"}
+  }
+]
